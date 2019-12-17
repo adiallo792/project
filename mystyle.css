@@ -1,0 +1,178 @@
+/* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+
+
+/* End extract */
+html,body{
+	font-family:"Arial Bold";
+	font-size:17px;
+	line-height:1.5
+	}
+h1{
+	font-size:40px
+	}
+
+h2{
+	font-size:24px
+	}
+
+h3{
+	font-size:17px
+	}
+
+h6{
+	font-size:16px
+	}
+
+h1,h2,h3,h4,h5,h6{
+	font-family:"Arial Bold",sans-serif;
+	font-weight:400;
+	margin:10px 0
+}
+
+.displayContainer{
+	position:relative;
+}
+
+.myimage{
+	max-width:100%;
+	height:auto
+	}
+img{
+	vertical-align:middle
+}
+
+.mybar{
+	width:100%;
+	overflow:hidden
+}
+
+.mybar .barItem{
+	padding:8px 16px;
+	float:left;
+	width:auto;
+	border:none;
+	display:block;
+	outline:0
+}
+
+.mybar .mybutton{
+	white-space:normal
+}
+.mybar:before,.mybar:after{
+	content:"";
+	display:table;
+	clear:both
+}
+
+.blueColor{
+	background-color:rgb(3, 163, 223);
+}
+.wideSize{
+	letter-spacing:4px
+}
+
+.paddingStyling{
+	padding:8px 16px!important
+}
+
+.mycard{
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+
+.rightSide{
+	float:right!important
+}
+
+.mybutton{
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap
+}
+
+.mybutton:hover{
+	color:rgb(68, 68, 68)!important;
+	background-color:rgb(236, 183, 34)!important
+}
+.displayMiddle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.displayLeft{
+	position:absolute;
+	top:50%;
+	left:15%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%)}
+
+.marginTop{margin-top:16px!important}
+.mycenter{text-align:center!important}
+.myLeft{text-align:left!important}
+.myxxlarge{font-size:36px!important}
+.textWhite,.w3-hover-text-white:hover{color:#fff!important}
+.blackColor{color:#fff!important}
+.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
+.myopacity{opacity:0.75}
+.hideSmall{display:none}
+.text-lightGrey,.w3-hover-text-light-grey:hover,.w3-text-light-gray,.w3-hover-text-light-gray:hover{color:#f1f1f1!important}
+.padding32{padding-top:32px!important;padding-bottom:32px!important}
+.borderBottom{border-bottom:1px solid #ccc!important}
+.border-lightGrey,.w3-hover-border-light-grey:hover,.w3-border-light-gray,.w3-hover-border-light-gray:hover{border-color:#f1f1f1!important}
+.padding16{padding-top:16px!important;padding-bottom:16px!important}
+.rowPadding,.rowPadding>.w3-half,.rowPaddingg>.w3-third,.rowPadding>.w3-twothird,.rowPadding>.w3-threequarter,.rowPadding>.w3-quarter,.rowPadding>.column{
+	padding:0 8px
+}
+.flexiss{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.flex1{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+	padding:0 8px
+}
+.marginBottom{margin-bottom:16px!important}
+.display-topLeft{
+	position:relative;
+	left:0;
+	top:0;
+	width: 350px;
+	height: 220px;
+	background-color: rgb(27, 68, 127);
+}
+
+.secondaryColor{
+	background-color: rgb(27, 68, 127);
+	width:50%;
+	overflow:hidden
+}
+
+.bottoms{position:fixed;width:100%;z-index:1}
+.mycontainer,.w3-panel{padding:0.01em 16px}
+.row {
+  display: flex;
+}
+.colum {
+  flex: 50%;
+  padding: 10px;
+	background-color: rgb(27, 68, 127);
+	margin: 10px;
+	color: white
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  	background-color:rgb(3, 163, 223);
+}
+
+
+.mycontent{margin-left:auto;margin-right:auto}
+.top_bar_menu,.w3-bottom{position:fixed;width:100%;z-index:1}.top_bar_menu{top:0}.w3-bottom{bottom:0}

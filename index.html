@@ -1,100 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Archery</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
 <body>
 
-<!-- Navbar (sit on top) -->
+<!-- Navbar  -->
 <header class="top_bar_menu">
-  <div>
-    <a href="#home" class="logo">
-      <img src="https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/archeryAcademy-logo-color.png?raw=true"
-      alt="Logo">
+  <div class="mybar blueColor wideSize paddingStyling mycard">
+    <a href="index.html" class="logo">
+      <img src="https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/archeryAcademy-logo-white.png?raw=true"
+      alt="Logo"
+      width="120"
+      >
     </a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <nav class="top-nav-right">
-      <a href="#services" >Services</a>
-      <a href="#about-us" >About US</a>
-      <a href="#contact" >Contact</a>
+    <!-- nav links -->
+    <nav class="rightSide">
+      <a href="#services" class="barItem mybutton">Services</a>
+      <a href="aboutus.html" class="barItem mybutton">About Us</a>
+      <a href="#contact" class="barItem mybutton">Contact</a>
     </nav>
   </div>
 </header>
 
 <!-- Header -->
-<header class="backgroundImage_header" >
-  <h1 class="company_slogan">
-    Company Slogan
+<header class="displayContainer mycontent wideSize" style="max-width:1500px;" id="home">
+  <img class="myimage" src="https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg?raw=true" alt="Architecture" width="1500" height="800">
+  <div class="displayMiddle marginTop mycenter">
+    <h1 class="myxxlarge textWhite">
+      <span class="paddingStyling blackColor myopacity">
+      <b>Archery</b>
+    </span>
+    <span class="text-lightGrey">
+      Academy
+    </span>
   </h1>
+  </div>
 </header>
 
 <!-- Page content -->
-<article class="services">
-  <h2 class="header-2">
-    Services:
-  </h2>
 
-  <!-- Project Section -->
-  <section class="classes">
-    <h3 class="header-3">
-      Classes
+  <!-- article -->
+   <article class="mycontainer padding32" id="services">
+    <h3 class="borderBottom border-lightGrey padding16">
+      Services
     </h3>
 
-  <div class="">
+    <!-- section -->
+   <section class="rowPadding">
+     <h3 class="borderBottom border-lightGrey padding16">
+       Classes
+     </h3>
 
-    <div class="">
-      <div class="">
-        <a href="#A101">A101 Basic Archery</a>
+     <div class="flexiss borderBottom">
+    <div class="column large3 medium6 marginBottom">
+      <div class="displayContainer">
+        <div class="display-topLeft blackColor paddingStyling">
+          A101 Basic Archery
+        </div>
       </div>
     </div>
 
-    <div class="">
-      <div class="">
-        <a href="#A102">A102 Intermediate Archery</a>
+    <div class="column large3 medium6 marginBottom">
+      <div class="displayContainer">
+        <div class="display-topLeft blackColor paddingStyling">
+          A102 Intermediate Archery
+        </div>
       </div>
     </div>
 
-    <div class="">
-      <div class="">
-        <a href="#A103" >A103 Advanced Archery</a>
+    <div class="column large3 medium6 marginBottom">
+      <div class="displayContainer">
+        <div class="display-topLeft blackColor paddingStyling">
+          A103 Advanced Archery
+        </div>
       </div>
+    </div>
+    </div>
+
+  </section>
+  <!-- END of Section -->
+
+  <!-- section -->
+  <div class="flex1">
+    <div class="secondaryColor">
+      <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+    </iframe>
+    </div>
+
+
+    <div class="secondaryColor">
+      <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+    </iframe>
     </div>
 
   </div>
-  </section>
+  <!-- END of section -->
 
-<section class="private-courses">
-  <h3 class="">Private Classes</h3>
-  <div class="">
-    <div class="">
-      <div class="">
-        <a href="#Single-Lesson">Single Lesson</a>
-      </div>
-    </div>
+<!-- section -->
+  <section class="rowPadding">
+    <h3 class="borderBottom border-lightGrey padding16">
+      Privates Classes
+    </h3>
+    <div class="flexiss borderBottom">
+   <div class="column large3 medium6 marginBottom">
+     <div class="displayContainer">
+       <div class="display-topLeft blackColor paddingStyling">
+        Single Lesson
+     </div>
+     </div>
+   </div>
 
-    <div class="">
-      <div class="">
-        <a href="#Lesson-Package">3 Lesson Package</a>
-      </div>
-    </div>
+   <div class="column large3 medium6 marginBottom">
+     <div class="displayContainer">
+       <div class="display-topLeft blackColor paddingStyling">
+         Lesson Package
+       </div>
+     </div>
+   </div>
 
-    <div class="">
-      <div class="">
-        <a href="Lesson-Package10">10 Lesson Package</a>
-      </div>
-    </div>
-
-  </div>
-  </section>
-</article>
+   <div class="column large3 medium6 marginBottom">
+     <div class="displayContainer">
+       <div class="display-topLeft blackColor paddingStyling">
+         10 Lesson Package
+       </div>
+     </div>
+   </div>
+ </div>
+ </section>
+ <!-- END Section -->
+  </article>
+  <!-- END Article -->
 
 
 <!-- Footer -->
-<footer class="footer">
-  <img
-  src="https://raw.githubusercontent.com/UWFront-End-Cert/html100/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg"
-  alt="footer"
-  >
+<footer class="displayContainer">
+  <img class="myimage" src="https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg?raw=true" alt="Architecture" width="1500" height="800">
+  <div class="displayLeft marginTop">
+    <h6 class=" textWhite">
+      <span class="blackColor myopacity">
+      <b>Archery</b>
+    </span>
+    <span class="text-lightGrey">
+      Academy:
+    </span><br>
+    <span>528 Nock Point Ln</span><br/>
+    <span>Tacoma, WA 98412</span><br/>
+    <span>archery-education@example.com</span><br/>
+    <span>(253)555-1010</span>
+  </h6>
+
+
+  </div>
 </footer>
 
 </body>
