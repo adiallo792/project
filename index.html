@@ -4,12 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <body>
+  <a href="#services" tabindex="1" class="sr-only sr-only-focusable"> Skip to the contact form</a>
 
 <!-- Navbar  -->
 <header class="top_bar_menu">
   <div class="mybar blueColor wideSize padding mycard">
-    <a href="index.html" class="logo">
+    <a tabindex="2" href="index.html" class="logo">
       <img src="https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/archeryAcademy-logo-white.png?raw=true"
       alt="Logo"
       width="120"
@@ -17,9 +19,9 @@
     </a>
     <!-- nav links -->
     <nav class="rightSide">
-      <a href="#services" class="barItem mybutton">Services</a>
-      <a href="aboutus.html" class="barItem mybutton">About Us</a>
-      <a href="contact.html" class="barItem mybutton">Contact</a>
+      <a tabindex="3" href="#services" class="barItem mybutton">Services</a>
+      <a tabindex="4" href="aboutus.html" class="barItem mybutton">About Us</a>
+      <a tabindex="5" href="contact.html" class="barItem mybutton">Contact</a>
     </nav>
   </div>
 </header>
@@ -43,13 +45,13 @@
 
   <!-- article -->
    <article class="container padding32" id="services">
-    <h3 class="border-bottom border-light-grey padding-16">
+    <h3 tabindex="6" class="border-bottom border-light-grey padding-16">
       Services
     </h3>
 
     <!-- section -->
    <section class="rowPadding">
-     <h3 class="border-bottom border-light-grey padding-16">
+     <h3 tabindex="7" class="border-bottom border-light-grey padding-16">
        Classes
      </h3>
 
@@ -57,7 +59,7 @@
     <div class="column large3 medium6 marginBottom">
       <div class="displayContainer">
         <div class="display-topLeft blackColor padding">
-          A101 Basic Archery
+          <h4 tabindex="8"> A101 Basic Archery </h4>
         </div>
       </div>
     </div>
@@ -65,7 +67,7 @@
     <div class="column large3 medium6 marginBottom">
       <div class="displayContainer">
         <div class="display-topLeft blackColor padding">
-          A102 Intermediate Archery
+          <h4 tabindex="9"> A102 Intermediate Archery</h4>
         </div>
       </div>
     </div>
@@ -73,7 +75,7 @@
     <div class="column large3 medium6 marginBottom">
       <div class="displayContainer">
         <div class="display-topLeft blackColor padding">
-          A103 Advanced Archery
+          <h4 tabindex="10">A103 Advanced Archery</h4>
         </div>
       </div>
     </div>
@@ -83,6 +85,7 @@
   <!-- END of Section -->
 
   <!-- section -->
+  <section>
   <div class="flex1">
     <div class="secondaryColor">
       <iframe width="420" height="315"
@@ -102,14 +105,14 @@
 
 <!-- section -->
   <section class="rowPadding">
-    <h3 class="border-bottom border-light-grey padding-16">
+    <h3 tabindex="11" class="border-bottom border-light-grey padding-16">
       Privates Classes
     </h3>
     <div class="flexiss border-bottom">
    <div class="column large3 medium6 marginBottom">
      <div class="displayContainer">
        <div class="display-topLeft blackColor padding">
-        Single Lesson
+        <h4 tabindex="12" >Single Lesson</h4>
      </div>
      </div>
    </div>
@@ -117,7 +120,7 @@
    <div class="column large3 medium6 marginBottom">
      <div class="displayContainer">
        <div class="display-topLeft blackColor padding">
-         Lesson Package
+         <h4 tabindex="13" >Lesson Package</h4>
        </div>
      </div>
    </div>
@@ -125,7 +128,7 @@
    <div class="column large3 medium6 marginBottom">
      <div class="displayContainer">
        <div class="display-topLeft blackColor padding">
-         10 Lesson Package
+         <h4 tabindex="14" > 10 Lesson Package</h4>
        </div>
      </div>
    </div>
@@ -140,7 +143,7 @@
 <footer class="displayContainer">
   <img class="myimage" src="https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg?raw=true" alt="Architecture" width="1500" height="800">
   <div class="displayLeft marginTop">
-    <h6 class=" textWhite">
+    <h6 tabindex="15" class=" textWhite">
       <span class="blackColor myopacity">
       <b>Archery</b>
     </span>

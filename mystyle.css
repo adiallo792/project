@@ -171,7 +171,7 @@ img{
 
 
 .w3-border{border:1px solid #ccc!important}
-.top_bar_menu,.w3-bottom{position:fixed;width:100%;z-index:1}.top_bar_menu{top:0}.w3-bottom{bottom:0}
+.top_bar_menu,.w3-bottom{width:100%;z-index:1}.top_bar_menu{top:2}.w3-bottom{bottom:0}
 
 
 .section{margin-top:16px!important;margin-bottom:16px!important}
